@@ -25,7 +25,7 @@ code {
     monospace;
 }
 
-/* Keyboard styles */
+
 :root {
   --key-color: #e2e8f0;
 }
@@ -233,18 +233,23 @@ main {
   position: relative;
 }
 
-.game .messages {
-  display: none !important;
-
+.game .message {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: aquamarine;
   z-index: 9999;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: gainsboro;
+  opacity: 0.8;
+  font-size: 5rem;
+  font-weight: bold;
+  color: darkred
 }
+
+
